@@ -1,6 +1,6 @@
 # typescript-resolution-issue
 
-Shows a resolution issue with TypeScript and parent directories.
+Shows a resolution issue with TypeScript and parent directories, because TypeScript automatically walks up your directories to find typings.
 
 ```
 $ yarn
@@ -19,3 +19,6 @@ error Command failed with exit code 2.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 
+**Solution**
+
+It looks like you need to add `compilerOptions.typeRoots = []` to your `tsconfig.json`.

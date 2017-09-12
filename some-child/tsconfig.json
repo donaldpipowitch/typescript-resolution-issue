@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2017",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "typeRoots": []
   },
   "include": ["src"]
 }
