@@ -1,4 +1,4 @@
-# typescript-workspace-resolution-example
+# typescript-resolution-issue
 
 Shows a resolution issue with TypeScript and parent directories.
 
